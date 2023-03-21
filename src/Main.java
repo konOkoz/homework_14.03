@@ -34,6 +34,13 @@ Square has area of 30.0 сторона*сторону
         for(int i=0;i<list.size();i++){
             System.out.println(list.get(i));
         }
+        /*
+        OUT:
+your kvadrat has area of 16.0
+your Circle has area of 5.441398092702653
+your Rectangle has area of 12.0
+
+         */
 
 
         GeometricShapes square = new Square("Square",3);
