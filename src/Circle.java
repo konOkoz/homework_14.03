@@ -1,11 +1,10 @@
-public class Circle extends GeometricShapes{
-
+public class Circle extends GeometricShapes {
 
     double radius;
     double result;
 
-    Circle(double radis){
-        this.radius=radis;
+    Circle(double radius){
+        this.radius=radius;
     }
 
     public double getArea(){
@@ -17,3 +16,5 @@ public class Circle extends GeometricShapes{
         return "your Circle has area of "+getArea();
     }
 }
+
+

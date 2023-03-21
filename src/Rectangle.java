@@ -1,5 +1,5 @@
 
-public class Rectangle extends GeometricShapes{
+public class Rectangle extends GeometricShapes {
     double length;
     double width;
     double result;
